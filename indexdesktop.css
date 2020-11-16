@@ -1,12 +1,16 @@
-header {
+body {
     background-image: url(../ASSIGNMENT/background.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
+header {
+    max-width: 1200px;
+    margin: auto;
+}
 ul {
     float: right;
-    margin-top: 1.5em;
+    margin-top: 2em;
 }
 ul li {
     display: inline;
@@ -20,10 +24,17 @@ ul li a {
 ul li a:hover {
     background-color: white;
     color: black;
+    transition: 0.7s ease;
 }
 .currenthomepage a {
     background-color: white;
     color: black;
+}
 
-
+.logo img{ 
+    display: inline;
+    float: left;
+    width: 15em;
+    height: auto;
+    margin-top: 1em;
 }
