@@ -1,0 +1,57 @@
+* {
+    font-family: helvetica;
+}
+body {
+    background-image: url(../ASSIGNMENT/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-template-rows: 10% 85% 5%;
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+}
+
+ul {
+    float: right;
+}
+ul li {
+    display: inline;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;  
+    border: 0.1em solid transparent;
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s ease;
+}
+.currenthomepage a {
+    background-color: white;
+    color: black;
+}
+
+.logo img{ 
+    display: inline;
+    float: left;
+    width: 15em;
+    height: auto;
+}
+header {
+    background-color: black;
+    grid-area: header;
+}
+main {
+    padding-top: 10em;
+    color: white;
+    grid-area: main;
+}
+footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
