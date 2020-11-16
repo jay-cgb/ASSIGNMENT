@@ -1,3 +1,6 @@
+* {
+    font-family: helvetica;
+}
 body {
     background-image: url(../ASSIGNMENT/background.jpg);
     height: 100vh;
