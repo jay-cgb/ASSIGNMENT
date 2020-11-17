@@ -1,4 +1,6 @@
 * {
+    padding: 0%;
+    margin: 0%;
     font-family: helvetica;
     
 }
@@ -41,6 +43,7 @@ footer {
     border-bottom: 0.2em solid white;
     border-radius: 0.1em;
     float: right;
+    margin-top: 1em;
 
     
 }
@@ -59,8 +62,8 @@ nav {
 }   
 nav:target {
     display: block;
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 0%;
     left: 50%;
     width: 50%;
     height: 100vh;
@@ -71,7 +74,7 @@ nav .close {
 }
 
 nav ul {
-    display: grid;
+    display: block;
     list-style: none;
     padding-top: 2em;
 
@@ -90,5 +93,4 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    grid-area: div;
 }
