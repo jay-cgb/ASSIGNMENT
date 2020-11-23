@@ -29,7 +29,11 @@ header {
 main {
     color: white;
     grid-area: main;
+    padding-left: 10em;
+    padding-right: 25em;
+    padding-top: 7em;
 }
+
 footer {
     background-color: black;
     color: white;
@@ -37,7 +41,9 @@ footer {
 }
     
 nav {
+    background-color: gray;
     grid-area: nav;
+    padding-top: 1em;
 
 }
 nav ul {
