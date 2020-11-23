@@ -28,37 +28,60 @@ header {
 main {
     color: white;
     grid-area: main;
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+main .hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+main p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 1em;
 }
 footer {
     background-color: black;
     color: white;
     grid-area: footer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 .openmenu {
     position: relative;
     height: 0.8em;
-    width: 1.25em;
+    width: 2.2em;
     display: block;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
+    border-top: 0.3em solid white;
+    border-bottom: 0.3em solid white;
     border-radius: 0.1em;
+
     float: right;
-    margin-top: 1em;
+
+    margin-top: 0.7em;
+    margin-right: 0.5em;
+    
 
     
 }
 .openmenu:before {
     content: '';
     position: absolute;
-    width: 1.25em;
+    width: 2.2em;
     top: 0.3em;
     left: 2empx;
-    border-top: 0.2em solid white;
+    border-top: 0.3em solid white;
 }
 nav {
     background-color: black;
     grid-area: nav;
     display:none; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }   
 nav:target {
     display: block;
