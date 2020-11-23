@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 10% 75% 5%;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+.logo img{ 
+    display: inline;
+    float: left;
+    width: 15em;
+    height: auto;
+}
+
+header {
+    background-color: black;
+    grid-area: header;
+}
+main {
+    color: white;
+    grid-area: main;
+    padding-left: 10em;
+    padding-right: 25em;
+    padding-top: 7em;
+}
+main .hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+main p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+    
+nav {
+    background-color:	#696969;
+    grid-area: nav;
+    padding-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border: 0.1em solid white transparent;
+    
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s ease;
+}
+nav .close {
+    display: none;
+}
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: div;
+}
