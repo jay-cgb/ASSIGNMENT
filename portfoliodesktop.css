@@ -224,3 +224,7 @@ body {
     height: 50vh;
     z-index: 1;
 }
+.close {
+    text-decoration: none;
+    color: red;
+}
