@@ -103,4 +103,124 @@ body {
     background-size: cover;
     background-position: center;
     grid-area: div;
+
+}
+.div1 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div1:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div2 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div2:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div3 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div3:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div4 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div4:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div5 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div5:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div6 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div6:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
 }
