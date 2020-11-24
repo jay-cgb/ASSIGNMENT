@@ -28,9 +28,18 @@ header {
 main {
     color: white;
     grid-area: main;
-    padding-left: 1em;
-    padding-right: 0.5em;
+    
 }
+main ul {
+    display: block;
+    text-align: center;
+    list-style: none;
+    
+}
+main ul li {
+    list-style: none;
+}
+
 main .hello {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -44,8 +53,6 @@ main p {
     font-weight: 300;
     padding-top: 1em;
 }
-main ul li {
-    list-style: none;
 }
 .webdev {
     padding-top: 1em;
