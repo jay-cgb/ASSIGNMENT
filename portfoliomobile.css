@@ -1,0 +1,246 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: helvetica;
+    
+}
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+.logo img{ 
+    display: inline;
+    float: left;
+    width: 15em;
+    height: auto;
+}
+
+header {
+    background-color: black;
+    grid-area: header;
+}
+main {
+    color: white;
+    grid-area: main;
+    padding-left: 1em;
+    padding-right: 0.5em;
+}
+main .hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+main p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 1em;
+}
+main ul li {
+    list-style: none;
+}
+footer {
+    background-color: black;
+    color: white;
+    grid-area: footer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.openmenu {
+    position: relative;
+    height: 0.8em;
+    width: 2.2em;
+    display: block;
+    border-top: 0.3em solid white;
+    border-bottom: 0.3em solid white;
+    border-radius: 0.1em;
+
+    float: right;
+
+    margin-top: 0.7em;
+    margin-right: 0.5em;
+    
+
+    
+}
+.openmenu:before {
+    content: '';
+    position: absolute;
+    width: 2.2em;
+    top: 0.3em;
+    left: 2empx;
+    border-top: 0.3em solid white;
+}
+nav {
+    background-color: black;
+    grid-area: nav;
+    display:none; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}   
+nav:target {
+    display: block;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+nav .close {
+    float: right;
+}
+
+nav ul {
+    display: block;
+    list-style: none;
+    padding-top: 2em;
+
+}
+nav ul li {
+    padding-top: 2.5em;
+    text-align: center;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.div1 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div1:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div2 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div2:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div3 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div3:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div4 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div4:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div5 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div5:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    z-index: 1;
+}
+
+.div6 {
+    display: none;
+    background-color: blue;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+}
+.div6:target {
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+}
+.close {
+    text-decoration: none;
+    color: red;
+}
