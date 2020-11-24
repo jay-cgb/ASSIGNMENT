@@ -36,26 +36,23 @@ main ul {
     padding-top: 3em;
      
 }
-.database {
+main ul li p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     
 }
-.webdev {
-   
-
-}
-.software {
-   
-
-}
 .problemsolving {
+    padding-top: 3em;
    
 
 }
 .communication {
+    padding-top: 3em;
    
 
 }
 .systems {
+    padding-top: 3em;
    
 
 }
