@@ -118,3 +118,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+.close {
+    text-decoration: none;
+    color: red;
+}
