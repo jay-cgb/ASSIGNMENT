@@ -120,5 +120,10 @@ body {
 }
 .close {
     text-decoration: none;
-    color: red;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 200%;
+    padding-right: 0.5em;
+    
+    
 }
