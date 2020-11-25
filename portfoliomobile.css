@@ -271,3 +271,9 @@ body {
     font-size: 200%;
     padding-right: 0.5em;
 }
+.exit {
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 180%;
+}

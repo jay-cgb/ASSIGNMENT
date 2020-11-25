@@ -224,7 +224,9 @@ body {
     height: 50vh;
     z-index: 1;
 }
-.close {
+.exit {
     text-decoration: none;
-    color: red;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 180%;
 }
