@@ -53,7 +53,7 @@ main p {
     font-weight: 300;
     padding-top: 1em;
 }
-}
+
 .webdev {
     padding-top: 1em;
 
@@ -90,14 +90,10 @@ footer {
     border-top: 0.3em solid white;
     border-bottom: 0.3em solid white;
     border-radius: 0.1em;
-
     float: right;
-
     margin-top: 0.7em;
     margin-right: 0.5em;
-    
 
-    
 }
 .openmenu:before {
     content: '';
@@ -270,5 +266,8 @@ body {
 }
 .close {
     text-decoration: none;
-    color: red;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 200%;
+    padding-right: 0.5em;
 }
