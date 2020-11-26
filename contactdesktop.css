@@ -25,11 +25,21 @@ header {
     grid-area: header;
 }
 main {
-    color: white;
+    color: black;
     grid-area: main;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-
+    font-weight: 600;
+}
+main h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3.5em;  
+}
+main p {
+    color: white;
+    text-align: center;
 }
 
 
@@ -87,7 +97,11 @@ form {
     grid-template-columns: 50% 50%;
     align-items: center;
     grid-gap: 0.5em;
-    }
-    .submit {
+    padding-top: 10em;
+    padding-left: 30em;
+    padding-bottom: 10em;
+}
+
+.submit {
     grid-column: 2;
-    }
+}
