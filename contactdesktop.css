@@ -88,20 +88,38 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    grid-area: div;
+    grid-area: div;  
 }
 
-form {
-    display: grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    grid-gap: 0.5em;
-    padding-top: 10em;
-    padding-left: 30em;
-    padding-bottom: 10em;
+.contact-form {
+    max-width: 600px;
+    margin: auto;
 }
-
-.submit {
-    grid-column: 2;
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+textarea{
+    resize: none;
+    height: 12em;
+}
+.contact-form-button{
+    float: right;
+    padding: 0.5em 2em;
+    border-radius: 0.5em;
+    border: 0;
+    background-color: #696969;
+    
+}
+.contact-form-button:hover{
+    background-color: lightgray;
+    transition: 0.5s;
 }

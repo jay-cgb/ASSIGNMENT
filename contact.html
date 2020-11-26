@@ -45,21 +45,25 @@
          </ul>
      </nav>
 
-     <main>
+     <main class="contact-form-section">
+
       <h1>Contact</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non sapien sed mauris placerat tincidunt. Nam at fermentum lorem, sit amet malesuada</p>
-      <form action="action" method="GET">
 
-        <label for="userfullname">Full Name</label>
-        <input type="text" name="userfullnametextfield" id="userfullname" />
+      <form class="contact-form" action="action" method="GET">
 
-        <label for="useremail">Email</label>
-        <input type="text" name="useremailtextfield" id="useremail" />
+        
+        <input type="text" class="contact-form-text" name="userfullname" placeholder="Full name">
 
-        <label for="message">Message</label>
-        <textarea name="messagetextarea"></textarea>
+        
+        <input type="text" class="contact-form-text" name="useremail" placeholder="Your e-mail"/>
 
-        <input type="submit" class="submit" value="Submit" name="submit" />
+        <input type="text" class="contact-form-text" name="subject" placeholder="Subject"/>
+
+        
+        <textarea class="contact-form-text" name="message"  placeholder="Your Message"></textarea>
+
+        <input type="submit" class="contact-form-button" value="Send">
 
       </form>
 
