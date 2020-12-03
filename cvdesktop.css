@@ -6,7 +6,7 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 10% 10% 75% 5%;
+    grid-template-rows: auto;
     grid-template-areas: 
     "header"
     "nav"
@@ -28,18 +28,24 @@ main {
     color: white;
     grid-area: main;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
 }
 main {    
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: auto;
 }
 main .cvleft{
-    background-color: lawngreen;
+    background-color: #152238;
 }
 main .cvright{
-    background-color: lightcoral;
+    background-color: white;
+}
+.image img{
+    height: 21em;
+    width: 16em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    border-radius: 2em;
 }
 
 footer {
@@ -87,7 +93,45 @@ body {
     background-position: center;
     grid-area: div;
 }   
+.dob{
+    text-align: center;
+}
+.dob h1{
+    font-size: 110%;
+    
+}
+.address{
+    padding-top: 1em;
+    text-align: center;
+}
+.address h1{
+    font-size: 110%;
 
+
+}
+.phone{
+    padding-top: 1em;
+    text-align: center;
+}
+.phone h1{
+    font-size: 110%;
+
+}
+.email{
+    padding-top: 1em;
+    padding-bottom: 5em;
+    text-align: center;
+}
+.email h1{
+    font-size: 110%;
+
+}
+.interests{
+    text-align: center;
+}
+.interests p{
+    padding-top: 0.2em;
+}
 
 
 
