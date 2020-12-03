@@ -4,7 +4,7 @@
 }
 body {
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: auto;
 }
 .logo img{ 
     display: inline;
@@ -19,18 +19,11 @@ header {
 main {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
 }
 main {    
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 45% 55%;
     grid-template-rows: auto;
-}
-main .cvleft{
-    background-color: lawngreen;
-}
-main .cvright{
-    background-color: lightcoral;
 }
 
 footer {
@@ -113,4 +106,96 @@ body {
     padding-right: 0.5em;
     
     
+}
+main .cvleft{
+    background-color: #152238;
+}
+.cvleft h2{
+    font-size: 100%;
+}
+.dob{
+    text-align: left;
+    font-size: 95%;
+}
+.dob h1{
+    font-size: 110%;
+    
+}
+.address{
+    padding-top: 1em;
+    text-align: left;
+    font-size: 95%;
+}
+.address h1{
+    font-size: 110%;
+
+
+}
+.phone{
+    padding-top: 1em;
+    text-align: left;
+    font-size: 95%;
+}
+.phone h1{
+    font-size: 110%;
+
+}
+.email{
+    padding-top: 1em;
+    padding-bottom: 5em;
+    text-align: left;
+    font-size: 95%;
+}
+.email h1{
+    font-size: 110%;
+
+}
+.interests{
+    text-align: left;
+    font-size: 95%;
+}
+.interests p{
+    padding-top: 0.8em;
+}
+.image img{
+    height: 10em;
+    width: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    margin-left: 0.5em;
+}
+
+
+main .cvright{
+    background-color: white;
+    color: black;
+}
+.nameholder{
+    text-align: left;
+    font-size: 100%;
+}
+.profile{
+    padding-top: 3em;
+    font-size: 95%;
+}
+.education{
+    padding-top: 3em;
+    font-size: 95%;
+}
+.welling{
+    padding-bottom: 1em;
+    font-size: 95%;
+}
+.ctk{
+    padding-bottom: 1em;
+    font-size: 95%;
+}
+.uon{
+    padding-bottom: 1em;
+    font-size: 95%;
+}
+.skills{
+    padding-top: 2em;
+    font-size: 95%;
 }
