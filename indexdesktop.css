@@ -32,34 +32,32 @@ main {
     padding-top: 7em;
 }
 main .hello {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 main h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
 }
 main p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Nerko One', cursive;
     padding-top: 1em;
+    font-size: 2em;
 }
 
 footer {
     background-color: black;
     color: white;
     grid-area: footer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
     
 nav {
     background-color:	#696969;
     grid-area: nav;
     padding-top: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 nav ul {
     display: grid;
@@ -73,7 +71,6 @@ nav ul li a {
     color: white;
     padding: 0.5em 1em;
     border: 0.1em solid white transparent;
-    
 }
 nav ul li a:hover {
     background-color: white;
