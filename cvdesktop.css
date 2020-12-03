@@ -121,13 +121,14 @@ main .cvleft{
     text-align: center;
 }
 .interests p{
-    padding-top: 0.2em;
+    padding-top: 0.8em;
 }
 .image img{
-    height: 21em;
-    width: 16em;
-    margin-left: 0.5em;
+    height: 15em;
+    width: 12em;
+    margin-left: 4em;
     margin-top: 1em;
+    margin-bottom: 1em;
     border-radius: 2em;
 }
 
