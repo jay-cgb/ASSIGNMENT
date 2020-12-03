@@ -27,7 +27,7 @@ header {
 main {
     color: white;
     grid-area: main;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 main ul {
     display: grid;
@@ -38,10 +38,10 @@ main ul {
      
 }
 main p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 1em;
-    
-    
+    font-weight: 300;
+    font-size: 110%;
 }
 .problemsolving {
     padding-top: 3em;
@@ -63,8 +63,8 @@ footer {
     background-color: black;
     color: white;
     grid-area: footer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
     
 nav {
@@ -72,8 +72,8 @@ nav {
     grid-area: nav;
     padding-top: 1em;
     padding-bottom: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     
 
 }
