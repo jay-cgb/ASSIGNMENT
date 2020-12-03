@@ -28,14 +28,13 @@ main {
     color: black;
     grid-area: main;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+
 }
-main h1 {
+main h2 {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
     text-align: center;
-    font-size: 3.5em;  
+    font-size: 3em;  
 }
 main p {
     color: white;
@@ -105,7 +104,6 @@ body {
     color: white;
     padding: 20px 20px;  
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
 }
 textarea{
     resize: none;
