@@ -34,19 +34,6 @@ main {
     grid-template-columns: 25% 75%;
     grid-template-rows: auto;
 }
-main .cvleft{
-    background-color: #152238;
-}
-main .cvright{
-    background-color: white;
-}
-.image img{
-    height: 21em;
-    width: 16em;
-    margin-left: 0.5em;
-    margin-top: 1em;
-    border-radius: 2em;
-}
 
 footer {
     background-color: black;
@@ -93,6 +80,10 @@ body {
     background-position: center;
     grid-area: div;
 }   
+
+main .cvleft{
+    background-color: #152238;
+}
 .dob{
     text-align: center;
 }
@@ -131,6 +122,43 @@ body {
 }
 .interests p{
     padding-top: 0.2em;
+}
+.image img{
+    height: 21em;
+    width: 16em;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    border-radius: 2em;
+}
+
+
+main .cvright{
+    background-color: white;
+    color: black;
+}
+.nameholder{
+    text-align: center;
+}
+.nameholder h2{
+    font-size: 200%;
+}
+.profile{
+    padding-top: 3em;
+}
+.education{
+    padding-top: 3em;
+}
+.welling{
+    padding-bottom: 1em;
+}
+.ctk{
+    padding-bottom: 1em;
+}
+.uon{
+    padding-bottom: 1em;
+}
+.skills{
+    padding-top: 2em;
 }
 
 
