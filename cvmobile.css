@@ -199,3 +199,6 @@ main .cvright{
     padding-top: 2em;
     font-size: 95%;
 }
+.skillslist ul{
+    padding-left: 1.5em;
+}
