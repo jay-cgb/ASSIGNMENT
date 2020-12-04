@@ -26,20 +26,23 @@ header {
 main {
     color: white;
     grid-area: main;
-    padding-left: 1em;
-    padding-right: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 main .hello {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 main h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
+    text-align: center;
 }
 main p {
     font-family: 'Nerko One', cursive;
     font-size: 2em;
     padding-top: 1em;
+    text-align: center;
 }
 footer {
     background-color: black;
