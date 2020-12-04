@@ -87,7 +87,8 @@ nav ul li a {
     text-decoration: none;
     color: white;
     padding: 0.5em 1em;
-    border: 0.1em solid white transparent;
+    border: 0.1em solid white;
+    border: transparent;
     
 }
 nav ul li a:hover {
