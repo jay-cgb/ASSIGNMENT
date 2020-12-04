@@ -27,7 +27,7 @@ header {
 main {
     color: white;
     grid-area: main;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 main {    
     display: grid;
@@ -39,16 +39,16 @@ footer {
     background-color: black;
     color: white;
     grid-area: footer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
     
 nav {
     background-color:	#696969;
     grid-area: nav;
     padding-top: 1em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     padding-bottom: 1em;
 
 }

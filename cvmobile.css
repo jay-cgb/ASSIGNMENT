@@ -18,7 +18,7 @@ header {
 }
 main {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 main {    
     display: grid;
@@ -29,8 +29,8 @@ main {
 footer {
     background-color: black;
     color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .openmenu {
     position: relative;
@@ -60,8 +60,8 @@ footer {
 nav {
     background-color: black;
     display:none; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }   
 nav:target {
     display: block;
