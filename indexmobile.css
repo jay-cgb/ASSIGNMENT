@@ -30,24 +30,23 @@ main {
     padding-right: 0.5em;
 }
 main .hello {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 main h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
 }
 main p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Nerko One', cursive;
+    font-size: 2em;
     padding-top: 1em;
 }
 footer {
     background-color: black;
     color: white;
     grid-area: footer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .openmenu {
     position: relative;
@@ -78,8 +77,8 @@ nav {
     background-color: black;
     grid-area: nav;
     display:none; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }   
 nav:target {
     display: block;
