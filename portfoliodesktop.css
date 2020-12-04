@@ -112,7 +112,7 @@ body {
 }
 .div1 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -132,7 +132,7 @@ body {
 
 .div2 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -152,7 +152,7 @@ body {
 
 .div3 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -172,7 +172,7 @@ body {
 
 .div4 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -192,7 +192,7 @@ body {
 
 .div5 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -212,7 +212,7 @@ body {
 
 .div6 {
     display: none;
-    background-color: blue;
+    background-color: black;
     position: fixed;
     top: 0%;
     left: 50%;
@@ -234,4 +234,5 @@ body {
     color: white;
     font-family: 'Fredoka One', cursive;
     font-size: 180%;
+    padding-left: 95%;
 }
