@@ -7,6 +7,12 @@ body {
     grid-template-columns: auto;
     
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 .logo img{ 
     display: inline;
     float: left;
@@ -17,37 +23,7 @@ body {
 header {
     background-color: black;
 }
-main {
-    color: white;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 4em;
-    padding-bottom: 4em;
-}
-main .hello {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-main h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
-main p {
-    font-family: 'Nerko One', cursive;
-    font-size: 2em;
-    padding-top: 1em;
-    text-align: center;
-}
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
+
 .openmenu {
     position: relative;
     height: 0.8em;
@@ -98,6 +74,12 @@ nav:target {
 }
 nav .close {
     float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 200%;
+    padding-right: 0.5em;
+    
 }
 
 nav ul {
@@ -116,18 +98,36 @@ nav ul li a {
     color: white;
 }
 
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-.close {
-    text-decoration: none;
+main {
     color: white;
-    font-family: 'Fredoka One', cursive;
-    font-size: 200%;
-    padding-right: 0.5em;
-    
-    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+main .hello {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+main p {
+    font-family: 'Nerko One', cursive;
+    font-size: 2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

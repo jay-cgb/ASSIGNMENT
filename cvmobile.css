@@ -6,6 +6,12 @@ body {
     display: grid;
     grid-template-rows: auto;
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 .logo img{ 
     display: inline;
     float: left;
@@ -16,25 +22,7 @@ body {
 header {
     background-color: black;
 }
-main {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-main {    
-    display: grid;
-    grid-template-columns: 45% 55%;
-    grid-template-rows: auto;
-}
 
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
 .openmenu {
     position: relative;
     height: 0.8em;
@@ -85,6 +73,11 @@ nav:target {
 }
 nav .close {
     float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 200%;
+    padding-right: 0.5em;
 }
 
 nav ul {
@@ -103,23 +96,26 @@ nav ul li a {
     color: white;
 }
 
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-.close {
-    text-decoration: none;
+main {
     color: white;
-    font-family: 'Fredoka One', cursive;
-    font-size: 200%;
-    padding-right: 0.5em;
-    
-    
+    font-family: 'Roboto', sans-serif;
 }
+main {    
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto;
+}
+
 main .cvleft{
     background-color: #152238;
+}
+.image img{
+    height: 10em;
+    width: 8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    margin-left: 0.5em;
 }
 .cvleft h2{
     font-size: 100%;
@@ -139,8 +135,6 @@ main .cvleft{
 }
 .address h1{
     font-size: 110%;
-
-
 }
 .phone{
     padding-top: 1em;
@@ -167,14 +161,6 @@ main .cvleft{
 }
 .interests p{
     padding-top: 0.8em;
-}
-.image img{
-    height: 10em;
-    width: 8em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border-radius: 2em;
-    margin-left: 0.5em;
 }
 
 
@@ -212,4 +198,13 @@ main .cvright{
 }
 .skillslist ul{
     padding-left: 1.5em;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

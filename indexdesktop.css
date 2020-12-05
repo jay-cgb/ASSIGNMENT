@@ -8,6 +8,13 @@ body {
     grid-template-columns: auto;
     grid-template-rows: 10% 10% 75% 5%;
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: div;
+}
 .logo img{ 
     display: inline;
     float: left;
@@ -18,39 +25,7 @@ body {
 header {
     background-color: black;
 }
-main {
-    color: white;
-    padding-top: 5em;
-    padding-left: 15em;
-    padding-right: 15em;
-    padding-bottom: 5em;
-}
-main .hello {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-main h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
-main p {
-    font-family: 'Nerko One', cursive;
-    padding-top: 1em;
-    font-size: 2em;
-    text-align: center;
-}
 
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
-    
 nav {
     background-color:	#696969;
     padding-top: 1em;
@@ -80,10 +55,36 @@ nav ul li a:hover {
 nav .close {
     display: none;
 }
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    grid-area: div;
+
+main {
+    color: white;
+    padding-top: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+}
+main .hello {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+main p {
+    font-family: 'Nerko One', cursive;
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+    
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

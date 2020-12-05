@@ -7,6 +7,13 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 .logo img{ 
     display: inline;
     float: left;
@@ -17,57 +24,7 @@ body {
 header {
     background-color: black;
 }
-main {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    
-}
-main ul {
-    display: block;
-    text-align: center;
-    list-style: none;
-    
-}
-main ul li {
-    list-style: none;
 
-}
-main p {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 1em;
-    font-size: 110%;
-}
-
-.webdev {
-    padding-top: 1em;
-
-}
-.software {
-    padding-top: 1em;
-
-}
-.problemsolving {
-    padding-top: 1em;
-   
-
-}
-.communication {
-    padding-top: 1em;
-   
-
-}
-.systems {
-    padding-top: 1em;
-}
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
 .openmenu {
     position: relative;
     height: 0.8em;
@@ -114,8 +71,12 @@ nav:target {
 }
 nav .close {
     float: right;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 200%;
+    padding-right: 0.5em;
 }
-
 nav ul {
     display: block;
     list-style: none;
@@ -132,12 +93,49 @@ nav ul li a {
     color: white;
 }
 
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+main {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
 }
+main ul {
+    display: block;
+    text-align: center;
+    list-style: none;
+    
+}
+main ul li {
+    list-style: none;
+
+}
+main p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1em;
+    font-size: 110%;
+}
+
+.webdev {
+    padding-top: 1em;
+
+}
+.software {
+    padding-top: 1em;
+
+}
+.problemsolving {
+    padding-top: 1em;
+   
+
+}
+.communication {
+    padding-top: 1em;
+   
+
+}
+.systems {
+    padding-top: 1em;
+}
+
 .div1 {
     display: none;
     background-color: black;
@@ -234,17 +232,20 @@ body {
     z-index: 1;
     border-radius: 1em;
 }
-.close {
-    text-decoration: none;
-    color: white;
-    font-family: 'Fredoka One', cursive;
-    font-size: 200%;
-    padding-right: 0.5em;
-}
+
 .exit {
     text-decoration: none;
     color: white;
     font-family: 'Fredoka One', cursive;
     font-size: 180%;
     padding-left: 93%;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

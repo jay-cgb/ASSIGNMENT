@@ -8,6 +8,13 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: div;  
+}
 .logo img{ 
     display: inline;
     float: left;
@@ -18,41 +25,13 @@ body {
 header {
     background-color: black;
 }
-main {
-    color: black;
-    font-family: 'Roboto', sans-serif;
 
-}
-main h2 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 3em;  
-}
-main p {
-    color: white;
-    text-align: center;
-}
-
-
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
-    
 nav {
     background-color:	#696969;
     padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    
-
 }
 nav ul {
     display: grid;
@@ -77,12 +56,21 @@ nav ul li a:hover {
 nav .close {
     display: none;
 }
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    grid-area: div;  
+
+main {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+main h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3em;  
+}
+main p {
+    color: white;
+    text-align: center;
 }
 
 .contact-form {
@@ -115,4 +103,14 @@ textarea{
 .contact-form-button:hover{
     background-color: lightgray;
     transition: 0.5s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }

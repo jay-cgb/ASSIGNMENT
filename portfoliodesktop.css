@@ -8,6 +8,14 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: div;
+
+}
 .logo img{ 
     display: inline;
     float: left;
@@ -18,6 +26,40 @@ body {
 header {
     background-color: black;
 }
+
+nav {
+    background-color:	#696969;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border: 0.1em solid white;
+    border: transparent;
+    
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s ease;
+}
+nav .close {
+    display: none;
+}
+
 main {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -51,56 +93,6 @@ main p {
 
 }
 
-footer {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-}
-    
-nav {
-    background-color:	#696969;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    
-
-}
-nav ul {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    text-align: center;
-    list-style: none;
-
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 0.5em 1em;
-    border: 0.1em solid white;
-    border: transparent;
-    
-}
-nav ul li a:hover {
-    background-color: white;
-    color: black;
-    transition: 0.7s ease;
-}
-nav .close {
-    display: none;
-}
-body {
-    background-image: url(../ASSIGNMENT/backdrop.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    grid-area: div;
-
-}
 .div1 {
     display: none;
     background-color: black;
@@ -226,4 +218,13 @@ body {
     font-family: 'Fredoka One', cursive;
     font-size: 180%;
     padding-left: 95%;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
 }
