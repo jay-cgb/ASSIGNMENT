@@ -80,10 +80,16 @@ footer {
 }
 nav {
     background-color: black;
-    grid-area: nav;
-    display:none; 
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    display:block; 
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    transform: translate(0, -100%);
 }   
 nav:target {
     display: block;
@@ -93,6 +99,8 @@ nav:target {
     width: 50%;
     height: 100vh;
     z-index: 1;
+    transform: translate(0, 0%);
+    transition: transform 0.4s ease-in;
 }
 nav .close {
     float: right;
