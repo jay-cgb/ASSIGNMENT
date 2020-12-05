@@ -20,9 +20,10 @@ header {
 }
 main {
     color: white;
-    padding-top: 7em;
+    padding-top: 5em;
     padding-left: 15em;
     padding-right: 15em;
+    padding-bottom: 5em;
 }
 main .hello {
     font-family: 'Roboto', sans-serif;
@@ -53,6 +54,7 @@ footer {
 nav {
     background-color:	#696969;
     padding-top: 1em;
+    padding-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
