@@ -21,8 +21,8 @@ main {
     color: white;
     padding-left: 2em;
     padding-right: 2em;
-    padding-top: 3.5em;
-    padding-bottom: 3.5em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 main .hello {
     font-family: 'Roboto', sans-serif;
