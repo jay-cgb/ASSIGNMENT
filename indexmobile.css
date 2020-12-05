@@ -5,12 +5,7 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 10% 10% 75% 5%;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "main"
-    "footer";
+    
 }
 .logo img{ 
     display: inline;
@@ -21,13 +16,13 @@ body {
 
 header {
     background-color: black;
-    grid-area: header;
 }
 main {
     color: white;
-    grid-area: main;
     padding-left: 2em;
     padding-right: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
 }
 main .hello {
     font-family: 'Roboto', sans-serif;
@@ -47,7 +42,6 @@ main p {
 footer {
     background-color: black;
     color: white;
-    grid-area: footer;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;

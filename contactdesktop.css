@@ -7,11 +7,6 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "main"
-    "footer";
 }
 .logo img{ 
     display: inline;
@@ -22,11 +17,9 @@ body {
 
 header {
     background-color: black;
-    grid-area: header;
 }
 main {
     color: black;
-    grid-area: main;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -45,7 +38,6 @@ main p {
 footer {
     background-color: black;
     color: white;
-    grid-area: footer;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     text-align: center;
@@ -55,7 +47,6 @@ footer {
     
 nav {
     background-color:	#696969;
-    grid-area: nav;
     padding-top: 1em;
     padding-bottom: 1em;
     font-family: 'Roboto', sans-serif;
