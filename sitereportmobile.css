@@ -109,7 +109,6 @@ main h2{
 }
 main img{
     text-align: left;
-    size: 1em;
     width: 100%;
     height: 100%;
 }
@@ -209,6 +208,14 @@ main .validationcentre h3{
     padding-bottom: 0.5em;
 }
 
+
+.sitereportpagevalidation{
+    padding-bottom: 4em;
+    text-align: center;
+}
+.sitereportpagevalidation img{
+    padding-bottom: 0.5em;
+}
 
 
 main .reference{

@@ -163,6 +163,14 @@ main .validationcentre h3{
 }
 
 
+.sitereportpagevalidation{
+    padding-bottom: 4em;
+    text-align: center;
+}
+.sitereportpagevalidation img{
+    padding-bottom: 0.5em;
+}
+
 
 main .reference{
     padding-top: 6em;
