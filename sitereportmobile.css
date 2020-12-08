@@ -99,7 +99,9 @@ nav ul li a {
 }
 
 main {
-    color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
 }
 
 
