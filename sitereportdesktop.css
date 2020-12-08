@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 10% 75% 5%;
+}
+body {
+    background-image: url(../ASSIGNMENT/backdrop.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    grid-area: div;
+}
+.logo img{ 
+    display: inline;
+    float: left;
+    width: 15em;
+    height: auto;
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    background-color:	#696969;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    list-style: none;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border: 0.1em solid white;
+    border: transparent;
+}
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s ease;
+}
+nav .close {
+    display: none;
+}
+
+main {
+    color: white;
+    padding-top: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+}
+main .hello {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+main p {
+    font-family: 'Nerko One', cursive;
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+    
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
