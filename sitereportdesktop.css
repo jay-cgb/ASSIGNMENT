@@ -6,7 +6,7 @@
 body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 10% 10% 75% 5%;
+    grid-template-rows: auto;
 }
 body {
     background-image: url(../ASSIGNMENT/backdrop.jpg);
@@ -57,26 +57,9 @@ nav .close {
 }
 
 main {
-    color: white;
-    padding-top: 5em;
-    padding-left: 15em;
-    padding-right: 15em;
-    padding-bottom: 5em;
-}
-main .hello {
+    color: black;
+    background-color: white;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-main h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
-main p {
-    font-family: 'Nerko One', cursive;
-    padding-top: 1em;
-    font-size: 2em;
-    text-align: center;
 }
     
 footer {
