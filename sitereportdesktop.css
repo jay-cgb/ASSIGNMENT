@@ -60,6 +60,10 @@ main {
     color: black;
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    padding-left: 1em;
+}
+main h2{
+    padding-bottom: 0.5em;
 }
 main img{
     text-align: center;
