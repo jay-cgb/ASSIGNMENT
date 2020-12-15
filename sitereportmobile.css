@@ -99,10 +99,9 @@ nav ul li a {
 }
 
 main {
-    color: black;
-    background-color: white;
+    color: white;
     font-family: 'Roboto', sans-serif;
-    padding-left: 1em;
+    padding-left: 0.3em;
 }
 main h2{
     padding-bottom: 0.5em;

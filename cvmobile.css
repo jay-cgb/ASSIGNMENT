@@ -107,7 +107,7 @@ main {
 }
 
 main .cvleft{
-    background-color: #152238;
+    background-color: #202020;
 }
 .image img{
     height: 10em;
@@ -165,8 +165,7 @@ main .cvleft{
 
 
 main .cvright{
-    background-color: white;
-    color: black;
+    color: white;
 }
 .nameholder{
     text-align: left;
