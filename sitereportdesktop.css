@@ -180,6 +180,9 @@ main .reference{
 .reference h1{
     padding-bottom: 0.5em;
 }
+.reference a{
+    color: yellow;
+}
     
 footer {
     background-color: black;
