@@ -175,9 +175,13 @@ main .cvright{
     padding-top: 3em;
     font-size: 95%;
 }
+.profile h2{
+    border-bottom: 0.2em solid white;
+}
 .education{
     padding-top: 3em;
     font-size: 95%;
+    border-bottom: 0.2em solid white;
 }
 .welling{
     padding-bottom: 1em;
@@ -194,6 +198,7 @@ main .cvright{
 .skills{
     padding-top: 2em;
     font-size: 95%;
+    border-bottom: 0.2em solid white;
 }
 .skillslist ul{
     padding-left: 1.5em;
